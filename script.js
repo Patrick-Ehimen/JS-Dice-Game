@@ -52,3 +52,10 @@ btnRoll.addEventListener("click", function () {
     player1El.classList.toggle("player--active");
   }
 });
+
+btnHold.addEventListener("click", function () {
+  // 1. Add current score to active player's score
+  // 2. Check if players score is >= 100
+  // Finish game
+  // 3. Switch to the next player
+});
