@@ -55,6 +55,11 @@ btnRoll.addEventListener("click", function () {
 
 btnHold.addEventListener("click", function () {
   // 1. Add current score to active player's score
+  scores[activePlayer] += currentScore;
+  // scores[1] = scores[1] + currentScore
+  document.getElementById(`current--${activePlayer}`).textContent =
+    scores[activePlayer];
+
   // 2. Check if players score is >= 100
   // Finish game
   // 3. Switch to the next player
