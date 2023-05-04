@@ -20,4 +20,4 @@ This is a simple game of dice where two players take turns rolling a dice. The p
 
 ## License
 
-P2PRide is released under the MIT License.
+To run the game, simply download or clone the repository and open the index.html file in your web browser. Alternatively, you can also visit the live demo hosted at [https://jscriptdice-game.netlify.app/].
