@@ -24,4 +24,8 @@ To run the game, simply download or clone the repository and open the index.html
 
 ## Code
 
-The game is implemented using HTML, CSS and JavaScript. The JavaScript code selects HTML elements and adds event listeners to the buttons. The `init` function initializes the game state, and the switchPlayer function switches the active player. The btnRoll event listener generates a random number between 1 and 6 and updates the current player's score. The btnHold event listener adds the current player's score to their total score and checks if the game has ended. The btnNew event listener resets the game to its initial state.
+The game is implemented using HTML, CSS and JavaScript. The JavaScript code selects HTML elements and adds event listeners to the buttons. The `init` function initializes the game state, and the `switchPlayer` function switches the active player. The `btnRoll` event listener generates a random number between 1 and 6 and updates the current player's score. The `btnHold` event listener adds the current player's score to their total score and checks if the game has ended. The `btnNew` event listener resets the game to its initial state.
+
+## Feedback
+
+If you have any suggestions or feedback, please feel free to create an issue or pull request on the GitHub repository. Your contributions are highly appreciated.
